@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammed Sinan K. | Business & Data Analyst</title>
+    <title>Muhammed Sinan K. | Strategic Business Analyst</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -14,20 +14,21 @@
         .section-label { letter-spacing: 0.2em; font-weight: 700; color: #6C757D; font-size: 0.75rem; text-transform: uppercase; border-left: 2px solid #001F5B; padding-left: 12px; }
         .case-study-title { font-size: 2.25rem; font-weight: 800; color: #001F5B; line-height: 1.2; }
         .project-role { font-size: 0.875rem; font-weight: 600; color: #6C757D; margin-bottom: 0.5rem; text-transform: uppercase; }
-        .consulting-card { border: 1px solid #DEE2E6; padding: 2rem; }
+        .consulting-card { border: 1px solid #DEE2E6; padding: 2rem; transition: border-color 0.3s ease; }
+        .consulting-card:hover { border-color: #001F5B; }
     </style>
 </head>
 <body>
 
     <!-- NAVIGATION -->
-    <nav class="sticky top-0 z-50 bg-white border-b border-gray-100 py-4 px-10">
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 py-4 px-10">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <span class="font-bold text-xl tracking-tighter navy-text uppercase">Sinan K.</span>
             <div class="hidden md:flex space-x-10 text-[11px] font-bold uppercase tracking-widest text-gray-500 items-center">
                 <a href="#about" class="hover:navy-text">Summary</a>
                 <a href="#projects" class="hover:navy-text">Case Studies</a>
                 <a href="#skills" class="hover:navy-text">Core Competencies</a>
-                <a href="#contact" class="navy-bg text-white px-5 py-2 hover:bg-blue-900 transition">Download CV</a>
+                <a href="#about-detailed" class="navy-text border-b-2 border-blue-900 pb-1 font-black">About Me</a>
             </div>
         </div>
     </nav>
@@ -40,120 +41,167 @@
                 <p class="text-xl text-gray-600 mb-8 leading-relaxed font-light">
                     Business Analyst and Data Analyst specializing in transforming operational friction into structured digital systems through rigorous requirement gathering and research-driven data modeling.
                 </p>
-                <div class="flex items-center space-x-6 text-sm text-gray-400 font-semibold mb-10">
-                    <span class="flex items-center uppercase tracking-wider"><i data-lucide="award" class="w-4 h-4 mr-2 navy-text"></i> CareerNova Winner</span>
-                    <span class="flex items-center uppercase tracking-wider"><i data-lucide="bar-chart" class="w-4 h-4 mr-2 navy-text"></i> MBA (Finance)</span>
+                <div class="flex items-center space-x-6 text-sm text-gray-400 font-semibold mb-10 uppercase tracking-widest">
+                    <span class="flex items-center"><i data-lucide="award" class="w-4 h-4 mr-2 navy-text"></i> MVP Winner</span>
+                    <span class="flex items-center"><i data-lucide="bar-chart" class="w-4 h-4 mr-2 navy-text"></i> MBA Finance</span>
                 </div>
-                <!-- HERO CTAs -->
-                <div class="flex gap-4">
-    <button class="navy-bg text-white px-8 py-4 font-bold uppercase text-xs tracking-widest shadow-lg">Download Resume</button>
-    
-    <!-- UPDATED CONTACT LINK -->
-    <a href="mailto:kalliyansinan@gmail.com?subject=Business%20Analyst%20Portfolio%20Inquiry" class="border border-gray-300 px-8 py-4 font-bold uppercase text-xs tracking-widest hover:bg-gray-50 transition inline-block">Contact Me</a>
-</div>
+                <div class="flex">
+                    <a href="mailto:kalliyansinan@gmail.com?subject=Strategic%20Portfolio%20Inquiry" class="navy-bg text-white px-16 py-5 font-black uppercase text-xs tracking-[0.2em] shadow-2xl hover:bg-blue-900 transition text-center min-w-[300px]">Contact Me Directly</a>
+                </div>
             </div>
-            <!-- IMAGE 1: HEADSHOT -->
-            <div class="w-full h-[550px] bg-gray-50 overflow-hidden shadow-2xl border border-gray-100 rounded-lg">
-                <img src="https://i.ibb.co/tMPZZFqH/Whats-App-Image-2026-08-22-at-2-14-12-PM.jpg" alt="Muhammed Sinan K. Portfolio" class="w-full h-full object-cover">
+            <!-- HERO IMAGE -->
+            <div class="w-full h-[550px] bg-gray-50 overflow-hidden shadow-2xl rounded-sm grayscale hover:grayscale-0 transition duration-500">
+                <img src="https://i.ibb.co/tMPZZFqH/Whats-App-Image-2026-08-22-at-2-14-12-PM.jpg" alt="Muhammed Sinan K." class="w-full h-full object-cover">
             </div>
         </div>
     </header>
 
     <!-- METRICS -->
     <div class="max-w-7xl mx-auto py-12 px-6 border-b grid grid-cols-2 md:grid-cols-4 gap-8">
-        <div class="text-center md:border-r border-gray-100">
-            <span class="text-4xl font-bold navy-text tracking-tighter">5+</span>
-            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.2em] mt-2 leading-none">Organizations Systems Deployed</p>
-        </div>
-        <div class="text-center md:border-r border-gray-100">
-            <span class="text-4xl font-bold navy-text tracking-tighter">1.5k+</span>
-            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.2em] mt-2 leading-none">Dataset Constraints Validated</p>
-        </div>
-        <div class="text-center md:border-r border-gray-100">
-            <span class="text-4xl font-bold navy-text tracking-tighter">1st</span>
-            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.2em] mt-2 leading-none">Award-Winning Performance</p>
-        </div>
-        <div class="text-center">
-            <span class="text-4xl font-bold navy-text tracking-tighter">BA/DA</span>
-            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.2em] mt-2 leading-none">Operational Strategy Expertise</p>
-        </div>
+        <div class="text-center md:border-r border-gray-100"><span class="text-4xl font-bold navy-text">5+</span><p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mt-2">Active Org Systems</p></div>
+        <div class="text-center md:border-r border-gray-100"><span class="text-4xl font-bold navy-text">1.5k+</span><p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mt-2">Research Sample Data</p></div>
+        <div class="text-center md:border-r border-gray-100"><span class="text-4xl font-bold navy-text">1st</span><p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mt-2">MVP Challenge Award</p></div>
+        <div class="text-center"><span class="text-4xl font-bold navy-text">DA/BA</span><p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mt-2">Corporate Strategy</p></div>
     </div>
 
-    <!-- CASE STUDIES SECTION -->
+    <!-- PROJECTS -->
     <section id="projects" class="py-24 border-b">
         <div class="max-w-7xl mx-auto px-6">
             
-           <!-- Project 1 -->
-<div class="mb-32">
-    <p class="section-label mb-8">Case Study 01</p>
-    <div class="grid md:grid-cols-2 gap-16 items-start">
-        <div>
-            <p class="project-role">Systems Analyst | Multi-Campus Operations</p>
-            <h3 class="case-study-title mb-6">Academic & Operational ERP Management</h3>
-            <p class="text-gray-700 leading-relaxed mb-6">
-                Liaised across five residential institutions to synchronize student data with administrative workflows. Manual reporting on canteen inventories and leave approvals were leading to consistent fiscal leaks and data fragmentation.
-            </p>
-            <p class="font-bold text-gray-900 mb-2">Strategy & Outcomes:</p>
-            <ul class="text-gray-600 text-sm space-y-3 border-l-2 border-gray-100 pl-6 italic">
-                <li>Implemented an automated Student Portal reducing processing times by 85%.</li>
-                <li>Engineered an attendance-based food forecasting logic, significantly reducing resource waste.</li>
-            </ul>
-        </div>
-        
-        <!-- UPDATED IMAGE BLOCK -->
-        <div class="w-full h-80 bg-gray-50 border border-gray-200 overflow-hidden rounded-sm hover:opacity-90 transition-opacity duration-300">
-            <!-- Replace 'YOUR_LINK_HERE' with your actual URL -->
-            <a href="https://majliswafycollege.web.app/" target="_blank" rel="noopener noreferrer" class="block w-full h-full">
-                <img src="https://i.ibb.co/nMHtHDWP/image.png" alt="ERP Design Preview" class="w-full h-full object-cover">
-            </a>
-        </div>
-        <!-- END UPDATED IMAGE BLOCK -->
-        
-    </div>
-</div>
-           <!-- Project 2: MVP WINNER -->
-<div class="mb-32 bg-gray-50 p-12 border border-gray-100 shadow-inner relative">
-    <div class="absolute -top-4 -right-4 bg-yellow-500 text-white px-4 py-2 font-black text-xs uppercase shadow-xl tracking-widest">MVP Winning Lead</div>
-    <p class="section-label mb-8">Case Study 02</p>
-    <div class="grid md:grid-cols-2 gap-16 items-center">
-        <div>
-            <p class="project-role">Product Strategy | Innovation Pitch Lead</p>
-            <h3 class="case-study-title mb-6 italic underline decoration-blue-900 decoration-1">CareerNova AI Strategy</h3>
-            <p class="text-gray-700 leading-relaxed mb-6 font-semibold">
-                Secured 1st Place at the CareerNova National Innovation Challenge.
-            </p>
-            <p class="text-sm text-gray-600 mb-6 leading-relaxed">
-                I spearheaded the Business Requirement documentation and developed the decision engine logic for an AI-based application validation tool. My contribution was defined by designing a logic engine that automated document eligibility verification against government regulatory compliance frameworks.
-            </p>
-        </div>
-        
-        <!-- UPDATED IMAGE BLOCK -->
-        <div class="w-full h-[350px] shadow-2xl overflow-hidden bg-white hover:opacity-90 transition-opacity duration-300">
-            <a href="https://career-spark-ai-841.lovable.app/" target="_blank" rel="noopener noreferrer" class="block w-full h-full">
-                <img src="https://i.ibb.co/fdyRmk32/image.png" alt="MVP Winner Session" class="w-full h-full object-cover">
-            </a>
-        </div>
-        <!-- END UPDATED IMAGE BLOCK -->
+            <!-- ERP PROJECT -->
+            <div class="mb-32">
+                <p class="section-label mb-8">Project Portfolio 01</p>
+                <div class="grid md:grid-cols-2 gap-16 items-start">
+                    <div>
+                        <p class="project-role">Systems Architect | Academic ERP</p>
+                        <h3 class="case-study-title mb-6">Multi-Campus Operational Management</h3>
+                        <p class="text-gray-700 leading-relaxed mb-6">Liaised across five residential institutions to synchronize student data with administrative workflows. Eliminated consistent fiscal leaks through data unification.</p>
+                        <p class="font-bold text-gray-900 mb-4 italic underline decoration-blue-900 decoration-1 uppercase text-xs tracking-widest">Outcomes:</p>
+                        <ul class="text-gray-600 text-sm space-y-3 border-l-2 border-gray-100 pl-6 italic">
+                            <li>Reduced operational processing times by 85%.</li>
+                            <li>Engineered inventory forecasting for scale optimization.</li>
+                        </ul>
+                    </div>
+                    <div class="w-full h-80 bg-gray-100 overflow-hidden rounded-sm hover:opacity-80 transition duration-300 shadow-sm border">
+                        <a href="https://majliswafycollege.web.app/" target="_blank">
+                            <img src="https://i.ibb.co/nMHtHDWP/image.png" alt="System Preview" class="w-full h-full object-cover">
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-    </div>
-</div>
-
-            <!-- Project 3: PRIYADARSHINI -->
-            <div>
-                <p class="section-label mb-8">Case Study 03</p>
+            <!-- CAREER NOVA -->
+            <div class="mb-32 bg-gray-50 p-12 border border-gray-100 shadow-inner">
+                <p class="section-label mb-8">Award-Winning Implementation 02</p>
                 <div class="grid md:grid-cols-2 gap-16 items-center">
-                    <div class="w-full h-[400px] overflow-hidden bg-gray-50 shadow-inner border border-gray-100 order-2 md:order-1">
-                        <img src="https://i.ibb.co/vvmvSqwc/image.png" alt="Data Research Profile" class="w-full h-full object-cover">
+                    <div>
+                        <h3 class="case-study-title mb-4 italic">CareerNova AI Logic Strategy</h3>
+                        <p class="text-yellow-700 font-bold text-xs uppercase tracking-widest mb-6">🏆 National Innovation Challenge: 1st Place Winner</p>
+                        <p class="text-sm text-gray-600 leading-relaxed">I developed the decision engine logic and orchestrated the functional requirements for an AI-based validation tool. By defining the decision trees for government compliance, I created a framework for automating complex document eligibility.</p>
+                    </div>
+                    <div class="w-full h-80 shadow-2xl overflow-hidden hover:opacity-90 transition">
+                        <a href="https://career-spark-ai-841.lovable.app/" target="_blank">
+                            <img src="https://i.ibb.co/fdyRmk32/image.png" alt="Winning Project" class="w-full h-full object-cover">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESEARCH -->
+            <div>
+                <p class="section-label mb-8">Primary Data Research 03</p>
+                <div class="grid md:grid-cols-2 gap-16 items-center">
+                    <div class="h-96 w-full border overflow-hidden order-2 md:order-1">
+                        <img src="https://i.ibb.co/vvmvSqwc/image.png" alt="Research Map" class="w-full h-full object-cover">
                     </div>
                     <div class="order-1 md:order-2">
-                        <p class="project-role">Data & Research Analyst | Scheme Policy Audit</p>
-                        <h3 class="case-study-title mb-6 uppercase tracking-tight">Priyadarshini Policy Data Research</h3>
-                        <p class="text-gray-700 leading-relaxed mb-8">
-                            Managed the field research audit for the Priyadarshini social initiative. By analyzing a cohort of 1,500+ participants, I utilized population sampling to define the distribution success of regional social schemes.
-                        </p>
-                        <div class="flex gap-10">
-                            <div><span class="text-3xl font-bold navy-text">1.5k+</span><p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mt-1 leading-tight">Audited Inputs</p></div>
-                            <div><span class="text-3xl font-bold navy-text">99%</span><p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mt-1 leading-tight">Requirement Accuracy</p></div>
+                        <h3 class="case-study-title mb-6">Priyadarshini Policy Analytics</h3>
+                        <p class="text-gray-700 leading-relaxed mb-6">Performed a massive scale policy audit utilizing population sampling on 1,500+ participants. Findings directly impacted distribution logistics and highlighted geographic accessibility gaps.</p>
+                        <span class="text-sm font-black navy-text">Data Integrity: 99% / Result: Strategic Realignment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CORE SKILLS -->
+    <section id="skills" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+            <div class="consulting-card bg-white">
+                <h4 class="font-bold navy-text mb-4 uppercase text-xs underline underline-offset-4 tracking-widest">Business Analysis</h4>
+                <p class="text-sm text-gray-500 mb-4">Mastery of BRD/FRD drafting and stakeholder management.</p>
+                <div class="text-[10px] font-bold text-gray-400 uppercase tracking-wider flex flex-wrap gap-2"><span>UAT</span> <span>Process Flows</span> <span>Logic Architecture</span></div>
+            </div>
+            <div class="consulting-card bg-white">
+                <h4 class="font-bold navy-text mb-4 uppercase text-xs underline underline-offset-4 tracking-widest">Data Insight</h4>
+                <p class="text-sm text-gray-500 mb-4">Leveraging SQL and Power BI to eliminate corporate blindspots.</p>
+                <div class="text-[10px] font-bold text-gray-400 uppercase tracking-wider flex flex-wrap gap-2"><span>Dashboarding</span> <span>Quant Analysis</span> <span>Predictive Ops</span></div>
+            </div>
+            <div class="consulting-card navy-bg text-white border-none shadow-xl">
+                <h4 class="font-bold text-white mb-4 uppercase text-xs tracking-widest">Strategic Presentation</h4>
+                <p class="text-sm text-blue-100 mb-4 leading-relaxed font-light italic">"Closing the loop between raw data and executive decision."</p>
+                <p class="text-xs text-blue-200 opacity-60">National award-winning speaker for tech-business storytelling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BACKGROUND & EDUCATION -->
+    <section class="py-24 border-b">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20">
+            <div>
+                <p class="section-label mb-10">Professional Path</p>
+                <div class="border-l-4 border-gray-100 pl-8">
+                    <p class="text-[10px] font-bold text-blue-900 tracking-widest mb-1 uppercase">Accounting & Business Ops</p>
+                    <h4 class="font-bold navy-text text-xl mb-3 leading-tight">Furniture Manufacturing Group</h4>
+                    <p class="text-sm text-gray-600 italic mb-4 leading-relaxed">Integrated financial auditing with floor operations, designing monitoring workflows that synchronized regional sales data with core accounting units.</p>
+                </div>
+            </div>
+            <div class="bg-gray-50 p-10 border shadow-sm">
+                <p class="section-label mb-8">Academic Strategy</p>
+                <div class="space-y-6">
+                    <div>
+                        <h5 class="font-black text-lg navy-text">MBA - Financial Analytics</h5>
+                        <p class="text-[10px] text-gray-400 font-bold uppercase tracking-widest mt-1 italic leading-relaxed">Strategic Risk Management & Asset Logic</p>
+                    </div>
+                    <div>
+                        <h5 class="font-black text-lg navy-text">BCA - Computer Applications</h5>
+                        <p class="text-[10px] text-gray-400 font-bold uppercase tracking-widest mt-1 italic leading-relaxed">Foundational Systems Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEW EXECUTIVE SUMMARY (ABOUT ME) SECTION -->
+        <div id="about-detailed" class="max-w-7xl mx-auto px-6 py-32 border-t mt-24">
+            <div class="grid md:grid-cols-3 gap-16 items-start">
+                <div>
+                    <p class="section-label mb-4 italic text-blue-900 uppercase font-black tracking-widest">About the Persona</p>
+                    <h2 class="text-5xl font-black navy-text leading-[0.9]">Executive <br>Summary</h2>
+                </div>
+                <div class="md:col-span-2">
+                    <p class="text-xl text-gray-800 leading-relaxed mb-6 font-medium italic underline underline-offset-8 decoration-gray-100">
+                        Investigating root causes, not just symptoms.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-8 text-lg font-light">
+                        I am a strategist specializing in operations management, quantitative techniques, and systems design. My approach is defined by a rigorous research mentality—I do not just build dashboards; I investigate the root causes of operational bottlenecks and engineer data-driven solutions to solve them.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-10 text-lg font-light border-l-2 border-gray-100 pl-8">
+                        Beyond the data layer, my core strength lies in stakeholder management and crisis resolution. Serving as a union executive and directing large-scale academic initiatives required aligning competing interests, managing cross-functional teams, and navigating complex organizational dynamics. I bring this same leadership framework to corporate environments, ensuring that analytical insights translate directly into accountable execution.
+                    </p>
+                    
+                    <!-- TRAITS GRID -->
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-gray-50 p-6 border-l-4 border-blue-900 shadow-sm">
+                            <h4 class="font-black navy-text mb-3 uppercase text-[10px] tracking-widest">Analytical Rigor</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed italic">Validating business rules and identifying critical gaps via deep-dive methodology.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 border-l-4 border-blue-900 shadow-sm">
+                            <h4 class="font-black navy-text mb-3 uppercase text-[10px] tracking-widest">Problem Solver</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed italic">Transforming chaotic manual processes into automated digital systems.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 border-l-4 border-blue-900 shadow-sm">
+                            <h4 class="font-black navy-text mb-3 uppercase text-[10px] tracking-widest">Strategic Pitching</h4>
+                            <p class="text-xs text-gray-500 leading-relaxed italic">Leading executive teams and panels through high-pressure decision pitches.</p>
                         </div>
                     </div>
                 </div>
@@ -161,69 +209,34 @@
         </div>
     </section>
 
-    <!-- CORE COMPETENCIES -->
-    <section id="skills" class="py-24 bg-gray-50 border-b">
-        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
-            <div class="consulting-card bg-white shadow-sm border-t-4 border-t-blue-900">
-                <h4 class="font-bold navy-text uppercase tracking-widest text-xs mb-6 underline">Requirement Analysis</h4>
-                <p class="text-sm text-gray-500 leading-relaxed italic mb-4 font-semibold">"Transforming ambiguity into documentation."</p>
-                <p class="text-xs text-gray-400">BRD / FRD Drafting, Stakeholder Liaising, BPMN 2.0 Mapping, and UAT Oversight.</p>
-            </div>
-            <div class="consulting-card bg-white shadow-sm border-t-4 border-t-blue-900">
-                <h4 class="font-bold navy-text uppercase tracking-widest text-xs mb-6 underline">Quantitative Insight</h4>
-                <p class="text-sm text-gray-500 leading-relaxed italic mb-4 font-semibold">"Unlocking trends via data extraction."</p>
-                <p class="text-xs text-gray-400">SQL Data Queries, Power BI Executive Dashboards, and Advanced Predictive Modeling.</p>
-            </div>
-            <div class="consulting-card navy-bg text-white shadow-lg">
-                <h4 class="font-bold text-white uppercase tracking-widest text-xs mb-6">Lead Presentation</h4>
-                <p class="text-sm text-blue-100 leading-relaxed italic mb-4">"Executing elite communication."</p>
-                <p class="text-xs text-blue-200 opacity-80 leading-relaxed font-light">Facilitating stakeholder consensus and presenting strategic findings to C-suite and competition juries with precision.</p>
+    <!-- FOOTER CTA -->
+    <section id="contact" class="py-40 bg-white border-t overflow-hidden relative text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-5xl md:text-6xl font-black navy-text mb-8 leading-tight">Ready for better business <br>decisions?</h2>
+            <p class="text-xs font-bold text-blue-900 uppercase tracking-[0.5em] mb-12">Architecture | Analysis | Leadership | Research</p>
+            <p class="text-[11px] font-bold text-gray-400 tracking-widest mb-16 uppercase italic">Consulting | Enterprise Solutions | Full-Time Engagement</p>
+            
+            <a href="mailto:kalliyansinan@gmail.com?subject=Strategic%20Role%20Inquiry" class="navy-bg text-white px-16 py-7 font-black uppercase text-xs tracking-[0.3em] shadow-2xl transition hover:bg-blue-800">
+                Available for Opportunities
+            </a>
+
+            <!-- QUICK CONTACT REFINEMENT -->
+            <div class="mt-20 flex justify-center space-x-12">
+                <a href="#" class="text-gray-300 hover:navy-text transition duration-300">
+                    <i data-lucide="linkedin" class="w-6 h-6"></i>
+                </a>
+                <a href="mailto:kalliyansinan@gmail.com" class="text-gray-300 hover:navy-text transition duration-300">
+                    <i data-lucide="mail" class="w-6 h-6"></i>
+                </a>
+                <a href="#" class="text-gray-300 hover:navy-text transition duration-300">
+                    <i data-lucide="award" class="w-6 h-6"></i>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- EDUCATION & BACKGROUND -->
-    <section class="py-24 border-b">
-        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
-            <div>
-                <p class="section-label mb-10">Professional Background</p>
-                <div class="border-l-4 border-gray-100 pl-8 space-y-12">
-                    <div>
-                        <p class="text-[10px] font-bold text-blue-900 uppercase tracking-widest">Financial Ops</p>
-                        <h4 class="font-bold text-xl navy-text">Accountant</h4>
-                        <p class="text-xs text-gray-400 uppercase italic mb-3 leading-relaxed">Furniture Manufacturing Group</p>
-                        <p class="text-xs text-gray-500 leading-relaxed">Engineered operational workflows to support finance, production monitoring, and regional sales strategy support.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-gray-50 p-10 border border-gray-100 shadow-md">
-                <p class="section-label mb-8">Career Foundation</p>
-                <div class="space-y-6">
-                    <div class="border-b pb-4"><h5 class="font-black text-gray-900">MBA in Financial Analytics</h5><p class="text-[10px] uppercase text-gray-400 font-bold tracking-widest mt-1 leading-relaxed">Strategic Capital & Risk Management Integratiion</p></div>
-                    <div class="pb-4"><h5 class="font-black text-gray-900">BCA - Bachelor of Computer Apps</h5><p class="text-[10px] uppercase text-gray-400 font-bold tracking-widest mt-1 leading-relaxed">Foundational Systems Engineering & Logic</p></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT AREA -->
-    <section id="contact" class="py-24 text-center">
-        <div class="max-w-3xl mx-auto px-6">
-            <h2 class="text-5xl font-black navy-text mb-8">Let's turn data into better <br> business decisions.</h2>
-            <div class="flex justify-center space-x-12 mb-16 text-[10px] font-bold uppercase tracking-[0.4em] text-blue-900 italic">
-                <a href="kalliyansinan@gmail.com" class="border-b border-blue-900 pb-1">Email</a>
-                <a href="#" class="border-b border-blue-900 pb-1">LinkedIn Profile</a>
-                <a href="#" class="border-b border-blue-900 pb-1">Technical Portfolio (PDF)</a>
-            </div>
-            <p class="text-[11px] font-medium text-gray-400 uppercase tracking-widest mb-12 italic leading-relaxed">
-                Strategic Consulting | Kerala, India | Global Reach
-            </p>
-            <button class="navy-bg text-white px-12 py-5 font-black uppercase text-xs tracking-[0.3em] shadow-2xl transition hover:bg-blue-800">Available for Opportunities</button>
-        </div>
-    </section>
-
-    <footer class="py-10 bg-white border-t border-gray-100 text-center text-[10px] font-bold text-gray-300 uppercase tracking-[0.5em]">
-        Muhammed Sinan K. &copy; MMXXIV / Analyst Portofolio Edition
+    <footer class="py-12 bg-white text-center text-[10px] font-black uppercase tracking-[0.5em] text-gray-300">
+        Sinan K. Portfolio &copy; MMXXIV / Version 2.4-STABLE
     </footer>
 
     <script>lucide.createIcons();</script>
